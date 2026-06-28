@@ -26,9 +26,9 @@ export default function Navbar() {
  <a href="#about" className="hover:text-cyan-400 transition">
     About
   </a>
-  <a href="#ProductShowcase" className="hover:text-cyan-400 transition">
+  {/* <a href="#ProductShowcase" className="hover:text-cyan-400 transition">
     Products
-  </a>
+  </a> */}
   <a href="#mission" className="hover:text-cyan-400 transition">
     Mission
   </a>
