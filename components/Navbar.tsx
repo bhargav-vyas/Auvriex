@@ -17,7 +17,6 @@ export default function Navbar() {
           />
         </div>
 
-        {/* Desktop Navigation */}
        <div className="hidden md:flex gap-8 text-slate-300">
 
   <a href="#home" className="hover:text-cyan-400 transition">
