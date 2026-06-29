@@ -37,7 +37,9 @@ export default function Hero() {
             Explore RootTracer
           </button>
 
-          <button className="w-full sm:w-auto px-6 py-4 rounded-xl border border-slate-700 hover:border-cyan-400 hover:text-cyan-400 transition">
+          <button  
+      
+          className="w-full sm:w-auto px-6 py-4 rounded-xl border border-slate-700 hover:border-cyan-400 hover:text-cyan-400 transition">
             Learn About Auvriex
           </button>
 

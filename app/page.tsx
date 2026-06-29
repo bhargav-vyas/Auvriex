@@ -5,6 +5,7 @@ import Mission from "@/components/Mission";
 import ProductShowcase from "@/components/ProductShowcase";
 import Footer from "@/components/Footer";
 import Vision from "@/components/Vision";
+import TechnologyStack from "../components/TechnologyStack";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Mission/>
     <ProductShowcase/>
     < Vision/>
+    <TechnologyStack/>
     <Footer/>
     </main>
   );
