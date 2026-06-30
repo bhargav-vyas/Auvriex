@@ -44,6 +44,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Bhargav Vyas",
+      url: "https://www.auvriextechnologies.com",
     },
   ],
 
@@ -56,7 +57,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Auvriex Technologies | AI Engineering Intelligence",
     description:
-      "ROOTTRACE automatically identifies production issues, explains root causes, and recommends fixes using AI.",
+      "ROOTTRACE automatically identifies production issues, explains root causes, and recommends AI-powered fixes.",
     url: "https://www.auvriextechnologies.com",
     siteName: "Auvriex Technologies",
     locale: "en_US",
@@ -67,7 +68,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Auvriex Technologies",
     description:
-      "AI-powered engineering intelligence platform built for modern software teams.",
+      "ROOTTRACE automatically identifies production issues, explains root causes, and recommends AI-powered fixes.",
   },
 
   robots: {
