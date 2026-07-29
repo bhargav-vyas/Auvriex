@@ -32,10 +32,11 @@ export default function Hero() {
 
         {/* Buttons */}
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-
-          <button className="w-full sm:w-auto px-6 py-4 rounded-xl bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition">
-            Explore RootTracer
-          </button>
+          <a href="#ProductShowcase"
+           className="w-full sm:w-auto px-6 py-4 rounded-xl bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition text-center">
+             Explore ROOTTRACE
+            </a>
+          
 
           <button  
       

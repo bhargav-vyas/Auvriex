@@ -1,6 +1,9 @@
+"use client";
+import { useState } from "react";
 import Image from "next/image";
-
+import ContactModal from "./ContactModal";
 export default function Navbar() {
+    const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="w-full border-b border-slate-800 bg-[#020617]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
@@ -43,7 +46,9 @@ export default function Navbar() {
 </div>
 
         {/* Desktop CTA */}
-        <button className="hidden md:block px-5 py-3 rounded-xl bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition">
+        <button
+          onClick={() => setIsOpen(true)}
+         className="hidden md:block px-5 py-3 rounded-xl bg-cyan-400 text-black font-semibold hover:bg-cyan-300 transition">
           Get Started
         </button>
 
@@ -51,8 +56,12 @@ export default function Navbar() {
         <button className="md:hidden text-white text-2xl">
           ☰
         </button>
-
       </div>
+
+      <ContactModal
+        isOpen={isOpen}
+        onClose={() => setIsOpen(false)}
+      />
     </nav>
   );
 }
